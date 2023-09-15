@@ -1,0 +1,7 @@
+Da linha 1 até a 6, o programa é iniciado, importando uma biblioteca, declarando o acesso aos dados da classe (public), definindo o método main e declarando variáveis do tipo int e String.
+
+Da linha 10 até a 12, é criado o objeto 'entrada', utilizado para ler dados. Uma mensagem é exibida na tela solicitando ao usuário seu número; esse valor é lido e armazenado na variável 'numero'.
+
+Da linha 15 até o fim do código, é verificado se o resto da divisão do seu número por 2 é igual a 0. Caso seja, é atribuída à variável 'saida' uma string informando que seu número é par; caso não seja, é atribuído que este é ímpar. Após isso, a variável 'saida' é impressa na tela.
+
+Os trechos em verde representam comentários no código. O código é delimitado por chaves.

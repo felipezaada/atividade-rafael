@@ -1,0 +1,7 @@
+Da linha 1 até a 6, o programa é iniciado, importando uma biblioteca, declarando o acesso aos dados da classe (public), definindo o método main e declarando variáveis do tipo double.
+
+Da linha 9 até a 11, é criado o objeto 'entrada', utilizado para ler dados. Uma mensagem é exibida na tela solicitando ao usuário seu salário bruto e esse dado é lido, atribuindo-o à variável 'salarioBruto'.
+
+Da linha 14 até a 24 (fim do código), a variável 'impostoRenda' é declarada com o valor inicial 0. Se o salário bruto for maior que 1500 reais, a variável 'impostoRenda' receberá o valor 'salarioBruto * 0.15'. Em seguida, a variável 'salarioLiquido' recebe o valor 'salarioBruto - impostoRenda'. Por fim, são exibidos na tela o valor do imposto e o salário líquido do usuário.
+
+Os trechos em verde representam comentários no código. O código é delimitado por chaves.

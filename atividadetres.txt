@@ -1,0 +1,16 @@
+class AtividadeTres {
+    public static void main(String[] args) {
+
+        int sensorLuminosidade = 0;
+        int sensorDePresenca = 1;
+        double sensorDePeso = 70.00;
+
+        if (sensorDePresenca == 1 && sensorLuminosidade == 0 && sensorDePeso > 30) {
+            System.out.println("ACENDER LUZ");
+        } else {
+            System.out.println("APAGAR LUZ"); // Contraditório pois podem ter sensor de presença valendo 1 e
+                                              // luminosidade em 1, ai a luz já está acesa, nao devendo ser apagada!
+        }
+
+    }
+}

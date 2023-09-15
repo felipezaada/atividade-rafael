@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class AtividadeDois {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        int idade;
+        String resposta;
+
+        System.out.println("Quantos anos você tem?");
+        idade = input.nextInt();
+
+        if (idade >= 18) {
+            System.out.println("PODE ENTRAR, BOA FESTA!");
+        } else if (idade < 18 && idade >= 16) {
+            System.out.println("VOCÊ ESTÁ ACOMPANHADO DE ALGUM MAIOR? (sim ou não)");
+            input.nextLine();
+            resposta = input.nextLine();
+            if (resposta.equals("sim") || resposta.equals("s")) {
+                System.out.println("PODE ENTRAR, BOA FESTA!");
+            } else {
+                System.out.println("VOCÊ NAO VAI PODER ENTRAR!");
+            }
+        } else {
+            System.out.println("VOCÊ NÃO PODE ENTRAR DE MANEIRA ALGUMA!");
+        }
+
+        input.close();
+        
+    }
+}

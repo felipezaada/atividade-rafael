@@ -1,0 +1,3 @@
+try, catch, finally,
+
+Essas palavrassão usadas em blocos de código para tratamento de exceções.
